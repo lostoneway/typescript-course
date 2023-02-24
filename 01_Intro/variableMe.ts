@@ -17,4 +17,11 @@ you can hover over the variable and see the type. */
 let phoneNumber = 3345431234
 phoneNumber.toFixed()
 
+//any it's not a special type it is a marker, I don't want to do the type checking. You want to usually avoid this. 
+let hero;
+
+function getHero(){
+    return 'thor'
+}
+
 export{} //removes errors temporarily 
