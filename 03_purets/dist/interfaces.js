@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let ethan = { id: 1, name: "Ethan", email: "nick@saban.org" };
 let ben = { id: 2, name: "Ben", email: "red@team.com", yearsOfService: 2 };
 console.log(ethan.email);

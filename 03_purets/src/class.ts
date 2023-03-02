@@ -1,3 +1,4 @@
+
 interface Address {
     street: string;
     city: string;
@@ -5,7 +6,7 @@ interface Address {
     zip: string;
 }
 
-class Employee {
+class Employee  {
   constructor(public name: string, private id: number, public address: Address) {}
 
 //static method. Can be called without creating an instance of the class ex: Employee.getEmployeeCount()

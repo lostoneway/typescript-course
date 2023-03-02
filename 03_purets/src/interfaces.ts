@@ -7,7 +7,7 @@ interface Customer {
 let ethan: Customer = {id: 1, name: "Ethan", email: "nick@saban.org"};
 
 
-interface Employees extends Customer {
+export interface Employees extends Customer {
      yearsOfService: number;
 }
 
@@ -18,3 +18,4 @@ console.log(ethan.email);
 console.log(ben.yearsOfService);
 
 console.log(`The customer ${ethan.name} has an email address of ${ethan.email} and the employee ${ben.name} has been with the company for ${ben.yearsOfService} years.`);
+
